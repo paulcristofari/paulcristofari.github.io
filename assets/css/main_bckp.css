@@ -1158,8 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			/* background-image: url("../../images/bg.jpg"); */
-			background-image: url("../../images/pexels-jakub-novacek-924824.jpg");
+			background-image: url("../../images/bg.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1276,12 +1275,10 @@ input, select, textarea {
 				content: '';
 				display: block;
 				position: absolute;
-                /* Following sets the position of both small vertical lines */
 				top: calc(-3.5rem - 1px);
 				left: calc(50% - 1px);
 				width: 1px;
-                /* Following line sets the high of the lines */
-				/* height: calc(3.5rem + 1px);  */
+				height: calc(3.5rem + 1px);
 				background: #ffffff;
 			}
 
@@ -1294,10 +1291,10 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 15.5rem;
-			height: 15.5rem;
+			width: 5.5rem;
+			height: 5.5rem;
 			line-height: 5.5rem;
-			/* border: solid 1px #ffffff; */
+			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
 
@@ -1308,7 +1305,6 @@ input, select, textarea {
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
-            /* Next two lines sets width of horizontal lines in theme */
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
@@ -1336,7 +1332,7 @@ input, select, textarea {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
-				line-height: 2; /* Spacing between text lines */
+				line-height: 2;
 			}
 
 		#header nav ul {
