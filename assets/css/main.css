@@ -1281,7 +1281,8 @@ input, select, textarea {
 				left: calc(50% - 1px);
 				width: 1px;
                 /* Following line sets the high of the lines */
-				/* height: calc(3.5rem + 1px);  */
+				/* height: calc(0px + 0px);  */
+				height: calc(3.5rem + 1px); 
 				background: #ffffff;
 			}
 
