@@ -1174,7 +1174,7 @@ input, select, textarea {
 			/* background-image: url("../../images/bg.jpg"); */
 			/* background-image: url("../../images/pexels-jakub-novacek-924824.jpg"); */
 			background-image: url("../../images/pexels-faik-akmd-1025469.jpg");
-			background-position: center;
+			background-position: bottom;
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
