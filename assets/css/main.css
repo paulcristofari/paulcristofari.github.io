@@ -705,6 +705,18 @@ input, select, textarea {
 				width: 100%;
 			}
 
+
+		.image.title {
+			display: block;
+			/* margin: 2.5rem 0; */
+			/* width: 100%; */
+		}
+
+			.image.title img {
+				/* width: 100%; */
+				border-radius: 50%;
+			}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
