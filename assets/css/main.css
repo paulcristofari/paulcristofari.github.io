@@ -194,12 +194,17 @@ input, select, textarea {
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			border-bottom: solid 1px #ffffff;
-			width: -moz-max-content;
-			width: -webkit-max-content;
-			width: -ms-max-content;
-			width: max-content;
+			/* PIC removed those things that seem to prevent line wrap */
+			/* width: -moz-max-content; */
+			/* width: -webkit-max-content; */
+			/* width: -ms-max-content;
+			width: max-content; */
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
+			/* PIC these lines to wrap the text */
+			word-wrap: break-word;
+			overflow-wrap: break-word; /* Ensures that long words and URLs wrap even when they exceed the container width */
+			white-space: normal; /* Ensures whitespace is handled normally */
 		}
 
 	h1 {
