@@ -63,9 +63,10 @@
 				<p>
 					Below you will find the PhD manuscript as published in 2022.
 					It can also be downloaded here: 
-
+				<div class="pdf-container">
 				<embed src="documents/manuscript-compressed.pdf" width="500" height="375" 
 				type="application/pdf">
+				</div>
 				</p>
 			</article>
 
@@ -75,9 +76,33 @@
 				<!-- <span class="image main"><img src="images/test1.jpg" alt="" /></span> -->
 				<p>
 					Here is the poster presented for the Cool Stars conference in 2022: 
-				<embed src="documents/poster-cs22.pdf" width="500" height="700" 
+				<div class="pdf-container">
+				<embed src="documents/poster-cs22.pdf" width="100%" height="100%"
 				type="application/pdf">
+				</div>
 				</p>
+
+<style>
+  /* Container for the PDF with aspect ratio (height = 2 * width) */
+  .pdf-container {
+    width: 100%;         /* Full width of the parent container */
+    max-width: 100%;     /* Optional: Prevent container from growing beyond parent */
+    position: relative;  /* For positioning the embed element */
+    height: 0;           /* Initially set height to 0 */
+    padding-bottom: 140%; /* Aspect ratio 2:1 (height = 2 * width) */
+    overflow: hidden;    /* Hide anything that overflows the container */
+  }
+
+  .pdf-container embed {
+    position: absolute;  /* Position the embed element */
+    top: 0;
+    left: 0;
+    width: 100%;         /* Full width of the container */
+    height: 100%;        /* Full height of the container */
+  }
+</style>
+
+
 			</article>
 
 						<!-- About me -->
