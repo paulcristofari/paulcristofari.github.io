@@ -185,6 +185,11 @@ input, select, textarea {
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
+		--faded-link-color: rgba(255, 255, 255, 0.35);
+	}
+
+	a.faded-link {
+		color: var(--faded-link-color);
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
